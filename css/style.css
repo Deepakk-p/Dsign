@@ -1,0 +1,251 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	font-style: normal;
+	text-decoration: none;
+	outline: none;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+
+body {
+	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #333;
+	overflow-x: hidden;
+	min-width: 320px;
+}
+input,textarea,select{
+	font-family: 'open_sansregular',Arial, Helvetica, sans-serif;
+}
+a{
+	color: #333;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	/* font-family: 'open_sanslight'; */
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1200px;
+}
+
+@font-face {
+    font-family: 'open_sanslight';
+    src: url('../fonts/opensans-light-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'open_sanssemibold';
+    src: url('../fonts/opensans-semibold-webfont.woff2') format('woff2'),
+         url('../fonts/opensans-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'quicksandbold';
+    src: url('fonts/quicksand/quicksand-bold-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksand_mediumregular';
+    src: url('fonts/quicksand/quicksand-medium-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksandregular';
+    src: url('fonts/quicksand/quicksand-regular-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'quicksand_lightregular';
+    src: url('fonts/quicksand/quicksand-light-webfont.woff2') format('woff2'),
+         url('fonts/quicksand/quicksand-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+/* ---------------------------Google_Fonts---------------------------------- */
+:root {
+    --paragraph-font-family:"Poppins", sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* <!---------------------------We Are -----------------------------------> */
+
+.We_Are_Head_img{
+    display: block;
+    margin: auto;
+}
+.We_Are_Head h1{
+    font-family: var(--paragraph-font-family);
+    text-align: center;
+    padding-top: 40px;
+    font-size: 97px;
+    font-weight: 600;
+    line-height: 86px;
+    color: #00578C;
+}
+.We_Are_Head .line{
+    width: 50%;
+    margin: auto;
+    height: 2px;
+    border-radius: 3px;
+    background-color: #D9D9D9;
+    margin-top: 62px;
+    margin-bottom: 62px;
+}
+.We_Are_img_carousal .carousel-item img{
+    object-fit: cover;
+    height: 600px;
+}
+
+.We_Are_about {
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.We_Are_about_head{
+    margin-top: 145px;
+    margin: auto;
+    width: 75%;
+}
+.We_Are_about_head p{
+    font-family:var(--paragraph-font-family);
+    font-weight: 100;
+    font-size: 42px;
+    margin-bottom: -2%;
+}
+.We_Are_about_head h1{
+    font-family: var(--paragraph-font-family);
+    font-size: 101px;
+    font-weight: 300;
+}
+.We_Are_about_head h1 span{
+    font-weight: 900;
+    color: #1E77B9;
+}
+.We_Are_about_row{
+    margin-bottom: 145px;
+    margin: auto;
+    width: 70%;
+    
+}
+/* .we_are_about_img {
+    height: 830px;
+} */
+.we_are_about_img img{
+    height: 895px;
+}
+.We_Are_about_content p{
+    font-family: var(--paragraph-font-family);
+    text-align: justify;
+    font-size: 22px;
+    line-height: 42px;
+    font-weight: 300;
+}
+
+
+
+/* <!---------------------------We Do -----------------------------------> */
+.we_do_services {
+    padding-top: 108px;
+    padding-bottom: 208px;
+    margin: auto;
+    width: 70%;
+}
+
+.We_do_head {
+    text-align: center;
+    padding-top: 66px;
+    padding-bottom: 66px;
+}
+.We_do_head p{
+    /* font-family: var(--paragraph-font-family); */
+    font-weight: 100;
+    font-size: 40px;
+    margin-bottom: -24px;
+}
+.We_do_head h1{
+    font-family: var(--paragraph-font-family);
+    font-size: 94px;
+    font-weight: 400;
+    margin-bottom: -9px;
+}
+.We_do_head h1 span{
+    font-weight: 900;
+    color: #1E77B9;
+}
+.We_do_head h3{
+    font-family: var(--paragraph-font-family);
+    font-weight: 700;
+    font-size: 47px;
+}
+.We_Do_img_carousal .carousel-item img{
+    object-fit: cover;
+    height: 400px;
+}
+
+.we_do_services img{
+    width: 70px;
+}
+.we_do_services h5{
+    font-size: 25px;
+    font-family: var(--paragraph-font-family);
+    color: #00578C;
+    font-weight:700;
+}
+.we_do_services p{
+    font-family: var(--paragraph-font-family);
+    line-height: 16px;
+    text-align: justify;
+}
+.we_do_services .col-3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.we_do_services .list_row{
+    padding-bottom: 40px;
+}
